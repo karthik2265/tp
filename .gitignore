@@ -1,0 +1,101 @@
+
+# ==========================================
+# Environment & Secrets
+# ==========================================
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets/
+credentials/
+
+# ==========================================
+# Go
+# ==========================================
+bin/
+build/
+*.exe
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# ==========================================
+# Python
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Python packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+wheels/
+
+# Testing & Coverage
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+
+# Linters & Type Checkers
+.mypy_cache/
+.pyright/
+.ruff_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# ==========================================
+# KDB+
+# ==========================================
+*.log
+*.log.*
+*.pid
+*.dump
+*.core
+*.tmp
+*.swp
+*.swo
+
+# ==========================================
+# Market Data
+# ==========================================
+market-data/
+captures/
+*.csv
+*.parquet
+
+# ==========================================
+# IDEs & Editors
+# ==========================================
+.idea/
+.vscode/
+*.iml
+
+# ==========================================
+# OS
+# ==========================================
+.DS_Store
+.AppleDouble
+Thumbs.db
+Desktop.ini
+
+# ==========================================
+# Temporary & Cache
+# ==========================================
+tmp/
+temp/
+.cache/
