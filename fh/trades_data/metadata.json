@@ -1,0 +1,31 @@
+{
+    "version": 1,
+    "job_id": "XNYS-20261110-BSU68L6GEA",
+    "query": {
+        "dataset": "XNYS.PILLAR",
+        "schema": "trades",
+        "symbols": [
+            "TSLA",
+            "SPY",
+            "MSFT",
+            "GOOGL"
+        ],
+        "stype_in": "raw_symbol",
+        "stype_out": "instrument_id",
+        "start": 1791590400000000000,
+        "end": 1794268800000000000,
+        "limit": null,
+        "encoding": "json",
+        "compression": "zstd"
+    },
+    "customizations": {
+        "pretty_px": true,
+        "pretty_ts": true,
+        "map_symbols": true,
+        "split_symbols": false,
+        "split_duration": "day",
+        "split_size": null,
+        "packaging": null,
+        "delivery": "download"
+    }
+}

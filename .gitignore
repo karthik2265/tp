@@ -99,3 +99,6 @@ Desktop.ini
 tmp/
 temp/
 .cache/
+
+# Ticker plant logs
+tp/logs/

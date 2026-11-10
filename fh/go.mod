@@ -5,7 +5,9 @@ go 1.26.0
 require (
 	github.com/alpacahq/alpaca-trade-api-go/v3 v3.11.0
 	github.com/joho/godotenv v1.5.1
+	github.com/klauspost/compress v1.20.4
 	github.com/spf13/viper v1.21.0
+	github.com/sv/kdbgo v0.20.0
 )
 
 require (
@@ -15,6 +17,7 @@ require (
 	github.com/go-viper/mapstructure/v2 v2.4.0 // indirect
 	github.com/josharian/intern v1.0.0 // indirect
 	github.com/mailru/easyjson v0.7.7 // indirect
+	github.com/nu7hatch/gouuid v0.0.0-20131221200532-179d4d0c4d8d // indirect
 	github.com/pelletier/go-toml/v2 v2.2.4 // indirect
 	github.com/sagikazarmark/locafero v0.11.0 // indirect
 	github.com/shopspring/decimal v1.3.1 // indirect

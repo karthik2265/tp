@@ -1,0 +1,212 @@
+{
+    "job_id": "XNYS-20261110-BSU68L6GEA",
+    "files": [
+        {
+            "filename": "condition.json",
+            "size": 2522,
+            "hash": "sha256:9b2b0ea7cad5b8d2f25aedeba861982b3694b6e0929ceedc0a9ffc20bb43e963",
+            "urls": {
+                "https": "https://api.databento.com/v0/batch/download/6TNKGC64/XNYS-20261110-BSU68L6GEA/condition.json",
+                "ftp": "ftp://ftp.databento.com/6TNKGC64/XNYS-20261110-BSU68L6GEA/condition.json"
+            }
+        },
+        {
+            "filename": "metadata.json",
+            "size": 749,
+            "hash": "sha256:c05eb0d8ce830b5e22c24a4c4e4e65b65c84742a28d48bc7ddf0f2728489edcb",
+            "urls": {
+                "https": "https://api.databento.com/v0/batch/download/6TNKGC64/XNYS-20261110-BSU68L6GEA/metadata.json",
+                "ftp": "ftp://ftp.databento.com/6TNKGC64/XNYS-20261110-BSU68L6GEA/metadata.json"
+            }
+        },
+        {
+            "filename": "xnys-pillar-20261012.trades.json.zst",
+            "size": 760540,
+            "hash": "sha256:cbe3e9b4b168bfa4fe58ca3ed3b07f545770e4c8c5f768ffe25cda54e2506d28",
+            "urls": {
+                "https": "https://api.databento.com/v0/batch/download/6TNKGC64/XNYS-20261110-BSU68L6GEA/xnys-pillar-20261012.trades.json.zst",
+                "ftp": "ftp://ftp.databento.com/6TNKGC64/XNYS-20261110-BSU68L6GEA/xnys-pillar-20261012.trades.json.zst"
+            }
+        },
+        {
+            "filename": "xnys-pillar-20261013.trades.json.zst",
+            "size": 989850,
+            "hash": "sha256:24c0ffb2ada104e26ec7567f31fb04451218d79438aa8147c4a2478c253b54a1",
+            "urls": {
+                "https": "https://api.databento.com/v0/batch/download/6TNKGC64/XNYS-20261110-BSU68L6GEA/xnys-pillar-20261013.trades.json.zst",
+                "ftp": "ftp://ftp.databento.com/6TNKGC64/XNYS-20261110-BSU68L6GEA/xnys-pillar-20261013.trades.json.zst"
+            }
+        },
+        {
+            "filename": "xnys-pillar-20261014.trades.json.zst",
+            "size": 1480746,
+            "hash": "sha256:19320b385eebe304256d6d5b20843a86f93524605acb921f0b83fb23e9c0e4b0",
+            "urls": {
+                "https": "https://api.databento.com/v0/batch/download/6TNKGC64/XNYS-20261110-BSU68L6GEA/xnys-pillar-20261014.trades.json.zst",
+                "ftp": "ftp://ftp.databento.com/6TNKGC64/XNYS-20261110-BSU68L6GEA/xnys-pillar-20261014.trades.json.zst"
+            }
+        },
+        {
+            "filename": "xnys-pillar-20261015.trades.json.zst",
+            "size": 1328258,
+            "hash": "sha256:95ddbb95c9f52bd86f641757fb6d919420c308420676f5b365398388a997b0af",
+            "urls": {
+                "https": "https://api.databento.com/v0/batch/download/6TNKGC64/XNYS-20261110-BSU68L6GEA/xnys-pillar-20261015.trades.json.zst",
+                "ftp": "ftp://ftp.databento.com/6TNKGC64/XNYS-20261110-BSU68L6GEA/xnys-pillar-20261015.trades.json.zst"
+            }
+        },
+        {
+            "filename": "xnys-pillar-20261016.trades.json.zst",
+            "size": 1446083,
+            "hash": "sha256:a5b552783209d882f16d56d722b82aada7d9aa5a3f514aa57a4a61dd8370b1a7",
+            "urls": {
+                "https": "https://api.databento.com/v0/batch/download/6TNKGC64/XNYS-20261110-BSU68L6GEA/xnys-pillar-20261016.trades.json.zst",
+                "ftp": "ftp://ftp.databento.com/6TNKGC64/XNYS-20261110-BSU68L6GEA/xnys-pillar-20261016.trades.json.zst"
+            }
+        },
+        {
+            "filename": "xnys-pillar-20261019.trades.json.zst",
+            "size": 1186162,
+            "hash": "sha256:6d10c057a2fae6456cd951408942456aa081d7eddbae3cee4c87c476e6222bef",
+            "urls": {
+                "https": "https://api.databento.com/v0/batch/download/6TNKGC64/XNYS-20261110-BSU68L6GEA/xnys-pillar-20261019.trades.json.zst",
+                "ftp": "ftp://ftp.databento.com/6TNKGC64/XNYS-20261110-BSU68L6GEA/xnys-pillar-20261019.trades.json.zst"
+            }
+        },
+        {
+            "filename": "xnys-pillar-20261020.trades.json.zst",
+            "size": 1104834,
+            "hash": "sha256:4f8cb0cc776744a6e86c88cd3c4b911549deb1ade99ad3aca21e61f500a84429",
+            "urls": {
+                "https": "https://api.databento.com/v0/batch/download/6TNKGC64/XNYS-20261110-BSU68L6GEA/xnys-pillar-20261020.trades.json.zst",
+                "ftp": "ftp://ftp.databento.com/6TNKGC64/XNYS-20261110-BSU68L6GEA/xnys-pillar-20261020.trades.json.zst"
+            }
+        },
+        {
+            "filename": "xnys-pillar-20261021.trades.json.zst",
+            "size": 1185633,
+            "hash": "sha256:60c7d329b3cb36da88debc8d59dd043a0cb91cc0aa6f7daf07104985caf5ac6f",
+            "urls": {
+                "https": "https://api.databento.com/v0/batch/download/6TNKGC64/XNYS-20261110-BSU68L6GEA/xnys-pillar-20261021.trades.json.zst",
+                "ftp": "ftp://ftp.databento.com/6TNKGC64/XNYS-20261110-BSU68L6GEA/xnys-pillar-20261021.trades.json.zst"
+            }
+        },
+        {
+            "filename": "xnys-pillar-20261022.trades.json.zst",
+            "size": 1597122,
+            "hash": "sha256:4e9d3c406eb0b4b7ae4ed4e19c8b31ceaa988365870425e9cf10bc07a6704d0a",
+            "urls": {
+                "https": "https://api.databento.com/v0/batch/download/6TNKGC64/XNYS-20261110-BSU68L6GEA/xnys-pillar-20261022.trades.json.zst",
+                "ftp": "ftp://ftp.databento.com/6TNKGC64/XNYS-20261110-BSU68L6GEA/xnys-pillar-20261022.trades.json.zst"
+            }
+        },
+        {
+            "filename": "xnys-pillar-20261023.trades.json.zst",
+            "size": 1142737,
+            "hash": "sha256:fd3d40e3fd038ec031d369673225ef42879cf61fdd2b2bd599d3b037384628de",
+            "urls": {
+                "https": "https://api.databento.com/v0/batch/download/6TNKGC64/XNYS-20261110-BSU68L6GEA/xnys-pillar-20261023.trades.json.zst",
+                "ftp": "ftp://ftp.databento.com/6TNKGC64/XNYS-20261110-BSU68L6GEA/xnys-pillar-20261023.trades.json.zst"
+            }
+        },
+        {
+            "filename": "xnys-pillar-20261026.trades.json.zst",
+            "size": 1237412,
+            "hash": "sha256:7f6070149b0584b582b18d0c1aa5f1b4c7411d9bc6389e6b6eb4d938630486bc",
+            "urls": {
+                "https": "https://api.databento.com/v0/batch/download/6TNKGC64/XNYS-20261110-BSU68L6GEA/xnys-pillar-20261026.trades.json.zst",
+                "ftp": "ftp://ftp.databento.com/6TNKGC64/XNYS-20261110-BSU68L6GEA/xnys-pillar-20261026.trades.json.zst"
+            }
+        },
+        {
+            "filename": "xnys-pillar-20261027.trades.json.zst",
+            "size": 1120624,
+            "hash": "sha256:745296f3a00cbd86aee14dfa45d0ce3019848fdd63503e3e27aafe9f02f2a1ed",
+            "urls": {
+                "https": "https://api.databento.com/v0/batch/download/6TNKGC64/XNYS-20261110-BSU68L6GEA/xnys-pillar-20261027.trades.json.zst",
+                "ftp": "ftp://ftp.databento.com/6TNKGC64/XNYS-20261110-BSU68L6GEA/xnys-pillar-20261027.trades.json.zst"
+            }
+        },
+        {
+            "filename": "xnys-pillar-20261028.trades.json.zst",
+            "size": 1298497,
+            "hash": "sha256:fa67b5357f7c04901b872156104d79e882c8d65f969ec3c13f53f04769db17ad",
+            "urls": {
+                "https": "https://api.databento.com/v0/batch/download/6TNKGC64/XNYS-20261110-BSU68L6GEA/xnys-pillar-20261028.trades.json.zst",
+                "ftp": "ftp://ftp.databento.com/6TNKGC64/XNYS-20261110-BSU68L6GEA/xnys-pillar-20261028.trades.json.zst"
+            }
+        },
+        {
+            "filename": "xnys-pillar-20261029.trades.json.zst",
+            "size": 2510051,
+            "hash": "sha256:1fb9a01d3621e9c89f9a431ff60f2411552e6844ab39f7b8fba07d3ccf1a1bfa",
+            "urls": {
+                "https": "https://api.databento.com/v0/batch/download/6TNKGC64/XNYS-20261110-BSU68L6GEA/xnys-pillar-20261029.trades.json.zst",
+                "ftp": "ftp://ftp.databento.com/6TNKGC64/XNYS-20261110-BSU68L6GEA/xnys-pillar-20261029.trades.json.zst"
+            }
+        },
+        {
+            "filename": "xnys-pillar-20261030.trades.json.zst",
+            "size": 2317937,
+            "hash": "sha256:3cf202d25e8e4ff135c221c840a759dca9958096bbb92e6d908a347eed05db80",
+            "urls": {
+                "https": "https://api.databento.com/v0/batch/download/6TNKGC64/XNYS-20261110-BSU68L6GEA/xnys-pillar-20261030.trades.json.zst",
+                "ftp": "ftp://ftp.databento.com/6TNKGC64/XNYS-20261110-BSU68L6GEA/xnys-pillar-20261030.trades.json.zst"
+            }
+        },
+        {
+            "filename": "xnys-pillar-20261102.trades.json.zst",
+            "size": 1805059,
+            "hash": "sha256:7139e046f7ee479670057fe342f0de9c7d32b186016b466a2e305dc4cea2a159",
+            "urls": {
+                "https": "https://api.databento.com/v0/batch/download/6TNKGC64/XNYS-20261110-BSU68L6GEA/xnys-pillar-20261102.trades.json.zst",
+                "ftp": "ftp://ftp.databento.com/6TNKGC64/XNYS-20261110-BSU68L6GEA/xnys-pillar-20261102.trades.json.zst"
+            }
+        },
+        {
+            "filename": "xnys-pillar-20261103.trades.json.zst",
+            "size": 1258067,
+            "hash": "sha256:fcaf724a437d0c788ad4ac5f27966596ee77bc5826e0a94f635c00d996438aeb",
+            "urls": {
+                "https": "https://api.databento.com/v0/batch/download/6TNKGC64/XNYS-20261110-BSU68L6GEA/xnys-pillar-20261103.trades.json.zst",
+                "ftp": "ftp://ftp.databento.com/6TNKGC64/XNYS-20261110-BSU68L6GEA/xnys-pillar-20261103.trades.json.zst"
+            }
+        },
+        {
+            "filename": "xnys-pillar-20261104.trades.json.zst",
+            "size": 2305147,
+            "hash": "sha256:5655e9da9d456c02189bdfa1006348c3f6319545c6d3657f2cdadb6eda0a4f75",
+            "urls": {
+                "https": "https://api.databento.com/v0/batch/download/6TNKGC64/XNYS-20261110-BSU68L6GEA/xnys-pillar-20261104.trades.json.zst",
+                "ftp": "ftp://ftp.databento.com/6TNKGC64/XNYS-20261110-BSU68L6GEA/xnys-pillar-20261104.trades.json.zst"
+            }
+        },
+        {
+            "filename": "xnys-pillar-20261105.trades.json.zst",
+            "size": 3686816,
+            "hash": "sha256:b01637d92ebdf21ec319b3e866f939f0eef5f67d2dcf0d487d0e7eca16290757",
+            "urls": {
+                "https": "https://api.databento.com/v0/batch/download/6TNKGC64/XNYS-20261110-BSU68L6GEA/xnys-pillar-20261105.trades.json.zst",
+                "ftp": "ftp://ftp.databento.com/6TNKGC64/XNYS-20261110-BSU68L6GEA/xnys-pillar-20261105.trades.json.zst"
+            }
+        },
+        {
+            "filename": "xnys-pillar-20261106.trades.json.zst",
+            "size": 1704339,
+            "hash": "sha256:4626c23c64715e951030e36a4c03aca3fdf11e42007c91d6b47f7a450a9778c7",
+            "urls": {
+                "https": "https://api.databento.com/v0/batch/download/6TNKGC64/XNYS-20261110-BSU68L6GEA/xnys-pillar-20261106.trades.json.zst",
+                "ftp": "ftp://ftp.databento.com/6TNKGC64/XNYS-20261110-BSU68L6GEA/xnys-pillar-20261106.trades.json.zst"
+            }
+        },
+        {
+            "filename": "xnys-pillar-20261109.trades.json.zst",
+            "size": 1638791,
+            "hash": "sha256:545b7bcc0fe38ce80c47be3232488463ce8b123ab73e34eec3777ce1399ac176",
+            "urls": {
+                "https": "https://api.databento.com/v0/batch/download/6TNKGC64/XNYS-20261110-BSU68L6GEA/xnys-pillar-20261109.trades.json.zst",
+                "ftp": "ftp://ftp.databento.com/6TNKGC64/XNYS-20261110-BSU68L6GEA/xnys-pillar-20261109.trades.json.zst"
+            }
+        }
+    ]
+}
