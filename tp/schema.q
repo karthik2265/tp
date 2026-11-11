@@ -1,0 +1,1 @@
+trade: ([] time:`timestamp$(); sym:`symbol$(); price: `float$(); size: `long$(); side: `char$())
