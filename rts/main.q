@@ -14,3 +14,15 @@ response: h(".u.sub";`trade;`SPY);
 (response 0) set (response 1);
 
 -1 "subscribed to trade for SPY on ",host,":",port;
+
+/ get updates
+upd: {[t;x]
+  fn: "upd";
+  .u.log[(fn;"got";count x;"row(s) for";t;"data";x)];
+  t insert x;
+  .u.log[(fn;"successfully inserted data into the table")];
+  }
+
+.u.log:{[msg]
+  show " | " sv ("time: ",(string .z.p);"msg: "," " sv (.Q.s1 each msg))
+  }
