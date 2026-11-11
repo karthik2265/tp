@@ -103,7 +103,6 @@ memory all at once.
 | `price` | float | `price` | decimal string → `float64` → q float |
 | `size` | long | `size` | shares |
 | `side` | char | `side` | aggressor: `"B"` buy, `"A"` sell, `"N"` unknown |
-| `seq` | long | `sequence` | NYSE sequence number |
 
 **No time is sent.** The file's timestamps (`ts_event`, `ts_recv`) are
 dropped; the tp stamps each trade with its own current time on arrival.
@@ -113,7 +112,7 @@ dropped; the tp stamps each trade with its own current time on arrival.
 Each trade becomes one call on the tp:
 
 ```q
-.u.upd[`trade; (enlist `SPY; enlist 778.78; enlist 38; enlist "N"; enlist 15918)]
+.u.upd[`trade; (enlist `SPY; enlist 778.78; enlist 38; enlist "N")]
 ```
 
 Every column is a one-element vector, the same shape as a batch of rows, so
@@ -139,8 +138,8 @@ stream.
 
 ## What the tp must provide
 
-- A `trade` table with columns `time sym price size side seq`.
-- A `.u.upd[t; x]` that puts the current time in front of the 5 columns it
+- A `trade` table with columns `time sym price size side`.
+- A `.u.upd[t; x]` that puts the current time in front of the 4 columns it
   receives (`x`) before inserting/publishing, as standard `tick.q` does.
 
 Async errors are not sent back: if `.u.upd` rejects a message (for example a

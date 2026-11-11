@@ -3,7 +3,7 @@
 //
 // It reads every YYYYMMDD.json.zst file in trades_data in date order,
 // starting from the earliest, and sends each trade to the ticker plant as
-// .u.upd[`trade; (sym; price; size; side; seq)], each column holding that one
+// .u.upd[`trade; (sym; price; size; side)], each column holding that one
 // trade. The ticker plant adds the timestamp.
 //
 // The ticker plant address comes from the environment (or fh/.env):
@@ -43,16 +43,15 @@ const (
 // The file's timestamps are not sent: the ticker plant stamps each trade
 // with its own time when it arrives.
 type Trade struct {
-	Side     string  `json:"side"` // "A" ask (sell aggressor), "B" bid (buy aggressor), "N" none
-	Price    float64 `json:"price"`
-	Size     int64   `json:"size"`
-	Sequence int64   `json:"sequence"`
-	Symbol   string  `json:"symbol"`
+	Side   string  `json:"side"` // "A" ask (sell aggressor), "B" bid (buy aggressor), "N" none
+	Price  float64 `json:"price,string"`
+	Size   int64   `json:"size"`
+	Symbol string  `json:"symbol"`
 }
 
-// columns returns the trade as (sym; price; size; side; seq), each column a
+// columns returns the trade as (sym; price; size; side), each column a
 // one-element vector. There is no time column: the ticker plant adds it in
-// front, giving the table time sym price size side seq.
+// front, giving the table time sym price size side.
 func columns(t *Trade) *kdb.K {
 	side := "N"
 	if t.Side != "" {
@@ -63,7 +62,6 @@ func columns(t *Trade) *kdb.K {
 		kdb.FloatV([]float64{t.Price}),
 		kdb.LongV([]int64{t.Size}),
 		&kdb.K{Type: kdb.KC, Attr: kdb.NONE, Data: side}, // char vector; kdbgo has no helper
-		kdb.LongV([]int64{t.Sequence}),
 	)
 }
 
