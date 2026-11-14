@@ -16,10 +16,10 @@ response: h(".u.sub";`trade;`SPY);
 -1 "subscribed to trade for SPY on ",host,":",port;
 
 / get updates
-upd: {[t;x]
-  fn: "upd";
-  .u.log[(fn;"got";count x;"row(s) for";t;"data";x)];
-  t insert x;
+upd: {[t;d]
+  fn: "rts.upd";
+  .u.log[(fn;"got";count d;"row(s) for";t;"data";d)];
+  t insert d;
   .u.log[(fn;"successfully inserted data into the table")];
   }
 

@@ -1,1 +1,1 @@
-trade: ([] time:`timestamp$(); sym:`symbol$(); price: `float$(); size: `long$(); side: `char$())
+trade: flip `time`sym`price`size`side!"psfjc"$\:()
