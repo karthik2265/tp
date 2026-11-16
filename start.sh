@@ -3,11 +3,14 @@
 
 export TP_HOST=localhost
 export TP_PORT=5020
+export RDB_PORT=5010
+export HDB_PORT=5011
 
 (cd tp && q main.q -p $TP_PORT) &
 sleep 1
 (cd rts && q main.q) &
-(cd rdb && q main.q) &
+(cd rdb && q main.q -p $RDB_PORT) &
+(cd hdb && q main.q -p $HDB_PORT) &
 wait
 
 # Sample data to send to tp (from a q session):

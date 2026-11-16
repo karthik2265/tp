@@ -8,7 +8,7 @@ if[not count port; '"TP_PORT is not set"];
 
 / subscribe to `SPY
 h: hopen hsym `$host,":",port;
-response: h(".u.sub";`trade;`SPY);
+response: h(".u.sub";`trade;`GOOGL);
 
 / create a local trade table in memory
 (response 0) set (response 1);

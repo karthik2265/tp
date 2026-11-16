@@ -1,5 +1,8 @@
 // TODO: setup authentication later
 
+/ bind to the port passed via -p flag (default 5010)
+if[not system"p"; system"p 5010"];
+
 .u.t: tables`.;
 / read the TP address from the environment
 host:getenv`TP_HOST;

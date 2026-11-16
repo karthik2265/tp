@@ -32,7 +32,7 @@
     h: w 0;
     s: w 1;
     d: $[s~`;d;select from d where sym in s];
-    if[count d; neg[h] (`upd; t; d); .u.log[("successfully published to";w;"to table";t;"and data";d)]];
+    if[count d; neg[h] (`upd; t; d); .u.log[(fn;"successfully published to";w;"to table";t;"and data";d)]];
     }[t;d] each ws;
   }
 
